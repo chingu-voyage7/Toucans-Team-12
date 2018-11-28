@@ -1,0 +1,48 @@
+/*
+  ============================
+   Base Styles
+  ============================
+*/
+:root {
+  --dark-blue: #173F4A;
+  --black: #2b2b2b;
+}
+
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  color:var(--dark-blue);
+  margin: 0 0 5px 0;
+}
+
+/* Horizontal separator */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/*
+  ============================
+    Media Queries
+  ============================
+*/
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
